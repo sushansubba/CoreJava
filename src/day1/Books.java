@@ -4,13 +4,13 @@ public class Books {
 
     //State
 
-    // size;
-    // color;
-    // author;
-    // isbn;
-    // coverpage;
-    // price;
-    // type;
+    // size (int);
+    // color (String);
+    // author (String);
+    // isbn   (String);
+    // coverPage  (String);
+    // price (float);
+    // type  (String);
 
     //Behaviour
 
