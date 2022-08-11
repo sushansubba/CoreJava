@@ -4,14 +4,14 @@ public class Course {
 
     //State
 
-    //title  (String)
-    //author   (String)
-    //duration  (String)
-    //price     (float)
-    //skill level  (String)
-    //date     (String)
-    //caption    (String)
-    //no of students  (int)
+   String title;
+   String author;
+   String duration;
+   float price;
+   String skillLevel;
+   String date;
+   String caption;
+   int noOfStudents;
 
     //Behaviour
 

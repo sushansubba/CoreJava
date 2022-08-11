@@ -6,13 +6,13 @@ public class Post
 
     //State
 
-    //type {picture or video} (String)
-    //likes    (long int)
-    //comments  (String)
-    //saves    (String)
-    //tags     (String)
-    //views {if it's a video}   (long int)
-    //time    (String)
+    String type;
+    long likes;
+    String comments;
+    String saves;
+    String tags;
+    long views;
+    String time;
 
 
 
