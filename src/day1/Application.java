@@ -7,13 +7,13 @@ public class Application {
 
                 Books book1 = new Books();
 
-                book1.author = "Robin Sharma";
-                book1.size= 279;
-                book1.color= "red";
-                book1.coverPage="www.images.com";
-                book1.isbn="9780062515674";
-                book1.price=19.99f;
-                book1.type="self-help";
+                book1.setAuthor("Robin Sharma");
+                book1.setSize(279);
+                book1.setColor("red");
+                book1.setCoverPage("www.images.com");
+                book1.setIsbn("9780062515674");
+                book1.setPrice(19.99f);
+                book1.setType("self-help");
 
                 Course course1 = new Course();
 
@@ -25,6 +25,17 @@ public class Application {
                 course1.noOfStudents=10;
                 course1.skillLevel= "Intermediate";
                 course1.title="Core Java Learning";
+
+
+
+                System.out.println(book1.getAuthor());
+                System.out.println(book1.getSize());
+                System.out.println(book1.getColor());
+                System.out.println(book1.getCoverPage());
+                System.out.println(book1.getIsbn());
+                System.out.println(book1.getPrice());
+                System.out.println(book1.getType());
+
 
 
 
